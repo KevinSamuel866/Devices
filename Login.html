@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+
+    <div>
+        <div>
+            <section id="header">
+                <a href="#"><img src="logos.jpg" class="logo" alt=""></a>
+                <div>
+                    <ul id="navbar">
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                       <!-- <li><a href="Language.html">Language</a>
+                            <select>
+                                <option value="language" id="Language" name="Language"></option>
+                                <option value="language" id="English" name="English">English</option>
+                                <option value="language" id="French" name="French">French</option>
+                                <option value="language" id="Kinyarwanda" name="Kinyarwanda">Kinyarwanda</option>
+                            </select>
+                        </li>-->
+                        <li><a href="Login.html">Login</a></li>
+                        <li><a href="Register.html">Register</a></li>
+                        <li><a href="Contacts.html">Contacts</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+    <h2>Login Form</h2>
+    <h3>Please fill in the following form to log in</h3>
+<form action="https://www.w3schools.com/action_page.php" method="post" class="form">
+  <div class="imgcontainer">
+    <img src="copylogo.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="contain">
+    <label for="username"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="username" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit" id="button">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+    <button type="button" id="buttonn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+</body>
+</html>
+
